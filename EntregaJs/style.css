@@ -1,0 +1,107 @@
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #86999c;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(49, 95, 75);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+/*MENU START*/
+.menu{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+/*MENU END*/
+/*PRODUCTOS START*/
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*PRODUCTOS END*/
+/*CARRITO START*/
+.carrito {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: #ffffff;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+#agregCart{
+    background-color: #86999c;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #ccc;
+    color: white;
+    padding: 7px;
+
+}
+
+#cartIcon{
+    font-size: 30px;
+    display: flex;
+    
+}
+.oculto {
+    transform: translateX(100%);
+}
+
+.carrito h2 {
+    margin-top: 0;
+}
+
+.carrito button {
+    background-color: #657e7b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+#toggle-carrito {
+    background-color: #657e7b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/*CARRITO END*/

@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Plantas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/6482f46b30.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Elige tu nueva amiga</h1>
+        <ul class="menu">
+            <li class="menu-item"> Inicio </li>
+            <li class="menu-item"> Plantas </li>
+            <li class="menu-item"> Blog </li>
+            <li class="menu-item"> Contacto </li>
+        </ul>
+        <button id="toggle-carrito" >
+            <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+        </button>
+        
+    </header>
+    <main>
+        <section id="productos" class="productos"></section>
+        <aside id="carrito" class="carrito oculto">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <button id="comprar">Comprar</button>
+        </aside>
+    </main>
+</body>
+</html>
