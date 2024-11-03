@@ -5,7 +5,7 @@ let productos = [
     imagen : "https://www.florespana.es//Files/10/230000/230039/ProductPhotos/1920x1080/1771104396.jpg",
     descripcion: 'Hermosa planta que llamamos la Strelitzia augusta o ave del paraíso. ¡Crea un oasis tropical y ambiente verde en tu hogar con esta amiga!',
     precio: 37.95,
-    stock: 10,
+    stock: 0,
 },
 
 {

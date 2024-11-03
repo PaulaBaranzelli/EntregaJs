@@ -12,6 +12,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 15px;
+    
 }
 /*MENU START*/
 .menu{
@@ -71,13 +72,16 @@ header {
     border: 2px solid #ccc;
     color: white;
     padding: 7px;
+    cursor: pointer;
+    
 
 }
 
-#cartIcon{
+
+#cartIcon, #userIcon, #phoneIcon, #envelopeIcon {
     font-size: 30px;
     display: flex;
-    
+        
 }
 .oculto {
     transform: translateX(100%);
@@ -102,6 +106,19 @@ header {
     padding: 10px;
     border: none;
     cursor: pointer;
+    display: flex;
+    gap: 15px;
+    margin: auto;
+   
 }
 
+
 /*CARRITO END*/
+footer{
+    background-color: white;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+}
