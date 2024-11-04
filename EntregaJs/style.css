@@ -74,7 +74,9 @@ header {
     padding: 7px;
     cursor: pointer;
     
-
+}
+#agregCart:hover {
+    background-color: rgb(82, 100, 96);
 }
 
 
@@ -99,7 +101,9 @@ header {
     cursor: pointer;
     margin-top: auto;
 }
-
+.carrito button:hover {
+    background-color: rgb(82, 100, 96);
+}
 #toggle-carrito {
     background-color: #657e7b;
     color: white;
