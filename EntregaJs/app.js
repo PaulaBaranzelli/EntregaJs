@@ -79,7 +79,9 @@ function actualizarCarrito() {
         });
 
         btnRestar.addEventListener('click', () => {
+               if(item.cantidad > 0){
                 item.cantidad--; 
+            }
                 actualizarCarrito(); 
             });
     });

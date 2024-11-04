@@ -1,0 +1,56 @@
+
+@media (max-width: 768px) {
+    
+    .producto {
+        width: 45%; 
+        margin: 5px;
+    }
+
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 10px 0;
+    }
+    
+  
+    #carrito {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+   
+    .producto {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+  
+    .menu-item {
+        font-size: 1em;
+    }
+
+    
+    #cartIcon, #userIcon, #phoneIcon, #envelopeIcon {
+        font-size: 1.2em;
+    }
+
+  
+    #toggle-carrito {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        font-size: 0.8em;
+    }
+}

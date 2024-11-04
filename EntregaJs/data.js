@@ -41,7 +41,7 @@ let productos = [
     imagen : "https://www.florespana.es//Files/10/230000/230039/ProductPhotos/1920x1080/1580366644.jpg",
     descripcion: 'Tu amigo del desierto en tu jardín, dandole ese toque especial.',
     precio: 61.95,
-    stock: 24,
+    stock: 34,
 },
 
 {
